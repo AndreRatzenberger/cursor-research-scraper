@@ -1,0 +1,25 @@
+[project]
+name = "papertrail"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "copilot-swe-agent[bot]", email = "198982749+Copilot@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "arxiv>=2.3.1",
+    "fastapi>=0.121.3",
+    "litellm>=1.80.5",
+    "networkx>=3.6",
+    "pypdf2>=3.0.1",
+    "python-multipart>=0.0.20",
+    "sentence-transformers>=5.1.2",
+    "tinydb>=4.8.2",
+    "uvicorn>=0.38.0",
+    "websockets>=15.0.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.11,<0.10.0"]
+build-backend = "uv_build"
